@@ -1,5 +1,5 @@
 {
-  "name": "aspect",
+  "name": "@oconnorjoseph/aspect-ts",
   "version": "1.0.0",
   "description": "An aspect-oriented programming library implemented in TypeScript",
   "main": "./build/aspect.js",
@@ -10,19 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dboikliev/AspecTS.git"
+    "url": "git+https://github.com/oconnorjoseph/AspecTS.git"
   },
   "author": "Deyan Boikliev",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dboikliev/AspecTS/issues"
+    "url": "https://github.com/oconnorjoseph/AspecTS/issues"
   },
   "dependencies": {},
   "devDependencies": {
-    "@types/mocha": "^2.2.41",
-    "@types/node": "^7.0.14",
-    "mocha": "^3.3.0",
-    "typescript": "^2.2.2"
+    "@types/mocha": "^8.2.0",
+    "@types/node": "^14.14.13",
+    "mocha": "^8.2.1",
+    "typescript": "^4.1.3"
   },
   "homepage": "https://github.com/dboikliev/AspecTS#readme"
 }

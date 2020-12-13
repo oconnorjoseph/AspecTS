@@ -6,7 +6,7 @@ export declare enum Target {
     Constructor = 16,
     InstanceMembers = 3,
     StaticMembers = 12,
-    All = 31,
+    All = 31
 }
 export declare abstract class AspectBase {
 }

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.boundary = exports.surround = exports.error = exports.aspect = exports.SurroundAspect = exports.ErrorAspect = exports.BoundaryAspect = exports.AspectBase = exports.Target = void 0;
 const overrideKey = typeof Symbol === "function" ? Symbol() : "__override";
 var Target;
 (function (Target) {

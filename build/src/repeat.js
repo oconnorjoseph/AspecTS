@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.repeatOnError = void 0;
 const aspect_1 = require("./aspect");
 class RepeatOnErrorAspect extends aspect_1.SurroundAspect {
     constructor(count, interval, wait) {

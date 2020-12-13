@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.invalidateCache = exports.cache = exports.MemoryCache = void 0;
 const aspect_1 = require("./aspect");
 class MemoryCache {
     constructor() {
