@@ -1,17 +1,19 @@
 {
     "compilerOptions": {
         "module": "commonjs",
-        "target": "es6",
+        "target": "es2017",
         "noImplicitAny": false,
         "sourceMap": true,
-        "outDir": "./build",
+        "outDir": "lib",
         "experimentalDecorators": true,
         "declaration": true,
         "traceResolution": false,
+        "esModuleInterop": true,
         "pretty": true
     },
+    "include": ["src"],
     "exclude": [
         "node_modules",
-        "build"
+        "lib"
     ]
 }

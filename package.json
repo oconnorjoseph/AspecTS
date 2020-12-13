@@ -1,11 +1,11 @@
 {
   "name": "@oconnorjoseph/aspect-ts",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "An aspect-oriented programming library implemented in TypeScript",
-  "main": "./build/aspect.js",
-  "types": "./build/aspect.d.ts",
+  "main": "lib/index.js",
+  "files": ["lib/**/*"],
   "scripts": {
-    "test": "tsc && mocha ./build/test",
+    "test": "tsc && mocha ./lib/test",
     "build": "tsc -p ."
   },
   "repository": {
