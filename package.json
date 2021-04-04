@@ -1,6 +1,6 @@
 {
   "name": "@oconnorjoseph/aspect-ts",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "An aspect-oriented programming library implemented in TypeScript",
   "main": "lib/index.js",
   "files": ["lib/**/*"],
